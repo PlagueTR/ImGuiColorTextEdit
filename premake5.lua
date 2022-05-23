@@ -9,7 +9,7 @@ project "ImGuiColorTextEdit"
 
     --ImGui needs to be included and IncludeDir["ImGui"] needs to be defined
     includedirs{
-        "%{IncludeDir.ImGui}"
+        "%{wks.location}/%{IncludeDir.ImGui}"
     }
 
     files{
